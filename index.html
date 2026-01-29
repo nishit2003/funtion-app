@@ -17,7 +17,7 @@
 
     <script>
       async function fetchStudentData() {
-        const response = await fetch("https://grovernt-funtionapp-cqdefkh7cke0g4dx.eastus-01.azurewebsites.net/api/getStudentCount");
+        const response = await fetch("https://grovernt-funtionapp-cqdefkh7cke0g4dx.eastus-01.azurewebsites.net/");
         const data = await response.json();
 
         const tableBody = document.getElementById("studentTable");
